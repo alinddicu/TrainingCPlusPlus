@@ -21,5 +21,5 @@ private:
 	TypeVille ConvertTypeVille(string typeVille);
 };
 
-ostream& operator<<(ostream& stream, Ville& d);
+ostream& operator<<(ostream& stream, const Ville& d);
 

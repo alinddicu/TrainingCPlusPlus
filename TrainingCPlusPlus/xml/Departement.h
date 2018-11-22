@@ -25,7 +25,7 @@ public:
 	~Departement();
 	static Departement CreateDepartement(xml_node<>* departementNode);
 	string ToString();
-	string GetNom();
+	string GetNom() const;
 private:
 	string m_numero;
 	string m_nom;
@@ -39,5 +39,5 @@ private:
 	vector<Ville> m_villes;
 };
 
-ostream& operator<<(ostream& stream, Departement& d);
+ostream& operator<<(ostream& stream, const Departement& d);
 

@@ -55,7 +55,7 @@ Departement Departement::CreateDepartement(xml_node<>* departementNode)
 	return departement;
 }
 
-string Departement::GetNom()
+string Departement::GetNom() const
 {
 	return m_nom;
 }
@@ -63,9 +63,10 @@ string Departement::GetNom()
 string Departement::ToString()
 {
 	string villes = "[";
+
 	for each (Ville ville in m_villes)
 	{
-		villes += ville.GetNom() + " ";
+		villes += ville.GetNom() + ", ";
 	}
 	villes += "]";
 
@@ -80,7 +81,7 @@ string Departement::ToString()
 		"Villes: " + villes + "\n";
 }
 
-ostream& operator<<(ostream& stream, Departement& d)
+ostream& operator<<(ostream& stream, const Departement& d)
 {
 	stream << d.GetNom();
 	return stream;

@@ -36,7 +36,7 @@ TypeVille Ville::ConvertTypeVille(string typeVille)
 	return Prefecture;
 }
 
-ostream& operator<<(ostream& stream, Ville& v)
+ostream& operator<<(ostream& stream, const Ville& v)
 {
 	stream << v.GetNom();
 	return stream;
