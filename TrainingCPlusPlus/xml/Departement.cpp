@@ -8,7 +8,7 @@ Departement::Departement(
 	string nom,
 	string imageCarte, 
 	string url, 
-	string surface, 
+	double surface, 
 	string dateCreation, 
 	string chefLieu, 
 	string nomRegion,
@@ -46,7 +46,7 @@ Departement Departement::CreateDepartement(xml_node<>* departementNode)
 		XmlUtils::GetNodeValue(departementNode, "nom"),
 		XmlUtils::GetNodeValue(departementNode, "image-carte"),
 		XmlUtils::GetNodeValue(departementNode, "url"),
-		XmlUtils::GetNodeValue(departementNode, "surface"),
+		atof(XmlUtils::GetNodeValue(departementNode, "surface").c_str()),
 		XmlUtils::GetNodeValue(departementNode, "date-creation"),
 		XmlUtils::GetNodeValue(departementNode, "chef-lieu"),
 		XmlUtils::GetNodeValue(departementNode, "nom-region"),
@@ -66,7 +66,7 @@ string Departement::ToString()
 		"Nom: " + m_nom + "\n" +
 		"Image carte: " + m_imageCarte + "\n" +
 		"URL: " + m_Url + "\n" +
-		"Surface: " + m_surface + "\n" +
+		"Surface: " + to_string(m_surface) + "\n" +
 		"Date creation: " + m_dateCreation + "\n" +
 		"Chef lieu: " + m_chefLieu + "\n" +
 		"Nom region: " + m_nomRegion + "\n";

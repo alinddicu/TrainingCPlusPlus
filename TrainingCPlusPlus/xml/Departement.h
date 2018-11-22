@@ -16,7 +16,7 @@ public:
 		string nom,
 		string imageCarte,
 		string url,
-		string surface,
+		double surface,
 		string dateCreation,
 		string chefLieu,
 		string nomRegion,
@@ -30,7 +30,7 @@ private:
 	string m_nom;
 	string m_imageCarte;
 	string m_Url;
-	string m_surface;
+	double m_surface;
 	string m_dateCreation;
 	string m_chefLieu;
 	string m_nomRegion;
