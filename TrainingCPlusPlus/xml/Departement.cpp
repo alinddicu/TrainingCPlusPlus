@@ -62,6 +62,13 @@ string Departement::GetNom()
 
 string Departement::ToString()
 {
+	string villes = "[";
+	for each (Ville ville in m_villes)
+	{
+		villes += ville.GetNom() + " ";
+	}
+	villes += "]";
+
 	return "Numero: " + m_numero + "\n" +
 		"Nom: " + m_nom + "\n" +
 		"Image carte: " + m_imageCarte + "\n" +
@@ -69,7 +76,8 @@ string Departement::ToString()
 		"Surface: " + to_string(m_surface) + "\n" +
 		"Date creation: " + m_sDateCreation + "\n" +
 		"Chef lieu: " + m_chefLieu + "\n" +
-		"Nom region: " + m_nomRegion + "\n";
+		"Nom region: " + m_nomRegion + "\n" + 
+		"Villes: " + villes + "\n";
 }
 
 ostream& operator<<(ostream& stream, Departement& d)
