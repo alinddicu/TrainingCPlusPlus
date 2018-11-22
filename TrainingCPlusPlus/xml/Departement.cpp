@@ -25,6 +25,20 @@ Departement::~Departement()
 {
 }
 
+Departement Departement::CreateDepartement(xml_node<>* departementNode)
+{
+	Departement departement(
+		XmlUtils::GetNodeValue(departementNode, "no-dept"),
+		XmlUtils::GetNodeValue(departementNode, "nom"),
+		XmlUtils::GetNodeValue(departementNode, "image-carte"),
+		XmlUtils::GetNodeValue(departementNode, "url"),
+		XmlUtils::GetNodeValue(departementNode, "surface"),
+		XmlUtils::GetNodeValue(departementNode, "date-creation"),
+		XmlUtils::GetNodeValue(departementNode, "chef-lieu"),
+		XmlUtils::GetNodeValue(departementNode, "nom-region"));
+	return departement;
+}
+
 string Departement::GetNom()
 {
 	return m_nom;

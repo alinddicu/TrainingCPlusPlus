@@ -1,7 +1,10 @@
 #pragma once
 #include <string>
+#include "rapidxml.hpp";
+#include "XmlUtils.h"
 
 using namespace std;
+using namespace rapidxml;
 
 class Departement
 {
@@ -16,6 +19,7 @@ public:
 		string chefLieu,
 		string nomRegion);
 	~Departement();
+	static Departement CreateDepartement(xml_node<>* departementNode);
 	string ToString();
 	string GetNom();
 private:
