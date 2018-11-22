@@ -1,5 +1,7 @@
 #include "stdafx.h"
 #include "Departement.h"
+#include "Ville.h"
+#include <vector>
 
 Departement::Departement(
 	string numero, 
@@ -9,7 +11,8 @@ Departement::Departement(
 	string surface, 
 	string dateCreation, 
 	string chefLieu, 
-	string nomRegion)
+	string nomRegion,
+	vector<Ville> villes)
 {
 	m_numero = numero;
 	m_nom = nom;
@@ -19,6 +22,7 @@ Departement::Departement(
 	m_dateCreation = dateCreation;
 	m_chefLieu = chefLieu;
 	m_nomRegion = nomRegion;
+	m_villes = villes;
 }
 
 Departement::~Departement()
@@ -27,6 +31,18 @@ Departement::~Departement()
 
 Departement Departement::CreateDepartement(xml_node<>* departementNode)
 {
+	xml_node<> * villesNode = departementNode->first_node("villes");
+	xml_node<> * villeNode = villesNode->first_node();
+	//cout << villeNode->name() << endl;
+	//cout << villeNode->value() << endl;
+
+	vector<Ville> villes;
+	while (villeNode != NULL)
+	{
+		villes.push_back(Ville::CreateVille(villeNode));
+		villeNode = villeNode->next_sibling();
+	}
+	
 	Departement departement(
 		XmlUtils::GetNodeValue(departementNode, "no-dept"),
 		XmlUtils::GetNodeValue(departementNode, "nom"),
@@ -35,7 +51,9 @@ Departement Departement::CreateDepartement(xml_node<>* departementNode)
 		XmlUtils::GetNodeValue(departementNode, "surface"),
 		XmlUtils::GetNodeValue(departementNode, "date-creation"),
 		XmlUtils::GetNodeValue(departementNode, "chef-lieu"),
-		XmlUtils::GetNodeValue(departementNode, "nom-region"));
+		XmlUtils::GetNodeValue(departementNode, "nom-region"),
+		villes);
+
 	return departement;
 }
 
@@ -58,6 +76,6 @@ string Departement::ToString()
 
 ostream& operator<<(ostream& stream, const Departement& d)
 {
-	stream << "";
+	stream << d;
 	return stream;
 }
