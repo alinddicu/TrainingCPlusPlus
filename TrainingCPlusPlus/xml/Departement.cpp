@@ -22,6 +22,9 @@ Departement::Departement(
 	m_chefLieu = chefLieu;
 	m_nomRegion = nomRegion;
 	m_villes = villes;
+	m_dDateCreation.tm_hour = 0;
+	m_dDateCreation.tm_min = 0;
+	m_dDateCreation.tm_sec = 0;
 	sscanf(m_sDateCreation.c_str(), "%4d-%2d-%2d", &m_dDateCreation.tm_year, &m_dDateCreation.tm_mon, &m_dDateCreation.tm_mday);
 }
 

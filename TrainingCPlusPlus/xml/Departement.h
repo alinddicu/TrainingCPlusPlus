@@ -12,16 +12,6 @@ using namespace rapidxml;
 class Departement
 {
 public:
-	Departement::Departement::Departement(
-		string numero,
-		string nom,
-		string imageCarte,
-		string url,
-		double surface,
-		string dateCreation,
-		string chefLieu,
-		string nomRegion,
-		vector<Ville> villes);
 	~Departement();
 	static Departement CreateDepartement(xml_node<>* departementNode);
 	string ToString();
@@ -37,6 +27,16 @@ private:
 	string m_chefLieu;
 	string m_nomRegion;
 	vector<Ville> m_villes;
+	Departement::Departement(
+		string numero,
+		string nom,
+		string imageCarte,
+		string url,
+		double surface,
+		string dateCreation,
+		string chefLieu,
+		string nomRegion,
+		vector<Ville> villes);
 };
 
 ostream& operator<<(ostream& stream, const Departement& d);
