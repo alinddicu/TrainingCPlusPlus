@@ -4,6 +4,7 @@
 #include "rapidxml.hpp";
 #include "XmlUtils.h"
 #include "Ville.h"
+#include <time.h>
 
 using namespace std;
 using namespace rapidxml;
@@ -31,7 +32,8 @@ private:
 	string m_imageCarte;
 	string m_Url;
 	double m_surface;
-	string m_dateCreation;
+	string m_sDateCreation;
+	tm m_dDateCreation;
 	string m_chefLieu;
 	string m_nomRegion;
 	vector<Ville> m_villes;

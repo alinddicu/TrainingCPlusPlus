@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "Departement.h"
 #include "Ville.h"
-#include <vector>
 
 Departement::Departement(
 	string numero, 
@@ -19,10 +18,11 @@ Departement::Departement(
 	m_imageCarte = imageCarte;
 	m_Url = url;
 	m_surface = surface;
-	m_dateCreation = dateCreation;
+	m_sDateCreation = dateCreation;
 	m_chefLieu = chefLieu;
 	m_nomRegion = nomRegion;
 	m_villes = villes;
+	sscanf(m_sDateCreation.c_str(), "%4d-%2d-%2d", &m_dDateCreation.tm_year, &m_dDateCreation.tm_mon, &m_dDateCreation.tm_mday);
 }
 
 Departement::~Departement()
@@ -67,7 +67,7 @@ string Departement::ToString()
 		"Image carte: " + m_imageCarte + "\n" +
 		"URL: " + m_Url + "\n" +
 		"Surface: " + to_string(m_surface) + "\n" +
-		"Date creation: " + m_dateCreation + "\n" +
+		"Date creation: " + m_sDateCreation + "\n" +
 		"Chef lieu: " + m_chefLieu + "\n" +
 		"Nom region: " + m_nomRegion + "\n";
 }
