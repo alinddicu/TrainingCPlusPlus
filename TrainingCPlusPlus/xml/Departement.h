@@ -37,5 +37,5 @@ private:
 	vector<Ville> m_villes;
 };
 
-ostream& operator<<(ostream& stream, const Departement& d);
+ostream& operator<<(ostream& stream, Departement& d);
 

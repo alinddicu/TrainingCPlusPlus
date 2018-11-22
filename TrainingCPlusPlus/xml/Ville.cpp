@@ -16,6 +16,16 @@ Ville Ville::CreateVille(xml_node<>* villeNode)
 	return Ville(villeNode->value(), villeNode->first_attribute()->value());
 }
 
+string Ville::ToString() const
+{
+	return m_nom;
+}
+
+string Ville::GetNom() const
+{
+	return ToString();
+}
+
 TypeVille Ville::ConvertTypeVille(string typeVille)
 {
 	if (typeVille == "sous-prefecture")
@@ -26,8 +36,8 @@ TypeVille Ville::ConvertTypeVille(string typeVille)
 	return Prefecture;
 }
 
-ostream& operator<<(ostream& stream, const Ville& v)
+ostream& operator<<(ostream& stream, Ville& v)
 {
-	stream << v;
+	stream << v.GetNom();
 	return stream;
 }
