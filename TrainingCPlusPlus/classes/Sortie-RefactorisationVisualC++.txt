@@ -1,0 +1,160 @@
+﻿
+Renommer 'factorielle2' en 'factorielleRecursive' :
+---------------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\Formation\Formation.cpp(7, 5)
+c:\Users\Administrateur\source\repos\Formation\Formation\Formation.cpp(16, 10)
+c:\Users\Administrateur\source\repos\Formation\Formation\Formation.cpp(37, 5)
+c:\Users\Administrateur\source\repos\Formation\Formation\Formation.cpp(39, 19)
+
+Renommer 'factorielle' en 'factorielleFor' :
+--------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\Formation\Formation.cpp(6, 5)
+c:\Users\Administrateur\source\repos\Formation\Formation\Formation.cpp(25, 5)
+
+Renommer 'length' en 'taille' :
+-------------------------------
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(27, 27)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(30, 23)
+
+Renommer 'motDePasse' en 'pwd_essai' :
+--------------------------------------
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(40, 31)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(42, 16)
+
+Renommer 'motDePasseValide' en 'pwd_correct' :
+----------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(40, 48)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(42, 27)
+
+Renommer 'deux' en 'droite' :
+-----------------------------
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(50, 8)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(51, 12)
+
+Renommer 'un' en 'gauche' :
+---------------------------
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(49, 8)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(51, 7)
+
+Renommer 'c' en 'character' :
+-----------------------------
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(55, 8)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(57, 7)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(62, 7)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(67, 7)
+
+Renommer 's' en 'stringToCypher' :
+----------------------------------
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(46, 39)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(52, 22)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(53, 22)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(55, 20)
+
+Renommer 'result' en 'cypheredString' :
+---------------------------------------
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(52, 13)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(58, 4)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(78, 9)
+
+Renommer 'map' en 'cypher' :
+----------------------------
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(48, 23)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(49, 2)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(50, 2)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(51, 2)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(56, 7)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(56, 30)
+c:\Users\Administrateur\source\repos\Formation\max\max.cpp(58, 24)
+
+Renommer '_denominateur' en 'm_denominateur' :
+----------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(26, 9)
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(31, 2)
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.h(13, 6)
+
+Renommer '_numerateur' en 'm_numerateur' :
+------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(16, 9)
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(21, 2)
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.h(12, 6)
+
+Renommer 'm_numerateur' en '_numerateur' :
+------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(16, 9)
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(21, 2)
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.h(12, 6)
+
+Renommer '_numerateur' en 'm_numerateur' :
+------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(16, 9)
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(21, 2)
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.h(12, 6)
+
+Renommer 'f3' en 'f2' :
+-----------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\main.cpp(13, 11)
+c:\Users\Administrateur\source\repos\Formation\Classes\main.cpp(14, 10)
+
+Renommer 'f1' en 'f' :
+----------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(122, 62)
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.cpp(124, 12)
+
+Renommer 'f2' en 'f' :
+----------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\Fraction.h(36, 62)
+
+Renommer 'test1' en 'testClasses' :
+-----------------------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\main.cpp(8, 6)
+
+Renommer 'testOverload' en 'testSurchargesOperateurs' :
+-------------------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\main.cpp(26, 6)
+c:\Users\Administrateur\source\repos\Formation\Classes\main.cpp(41, 2)
+
+Renommer 'nombreBarettes' en 'nombreBarettesFraction' :
+-------------------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\Centieme.cpp(25, 6)
+c:\Users\Administrateur\source\repos\Formation\Classes\Centieme.cpp(26, 22)
+
+Renommer 'msg_' en 'message' :
+------------------------------
+c:\Users\Administrateur\source\repos\Formation\Classes\DenominateurZero.h(17, 3)
+c:\Users\Administrateur\source\repos\Formation\Classes\DenominateurZero.h(25, 3)
+c:\Users\Administrateur\source\repos\Formation\Classes\DenominateurZero.h(39, 10)
+c:\Users\Administrateur\source\repos\Formation\Classes\DenominateurZero.h(45, 14)
+
+Renommer 'object' en 'm_object' :
+---------------------------------
+c:\Users\Administrateur\source\repos\Formation\templates\Alea.cpp(18, 9)
+c:\Users\Administrateur\source\repos\Formation\templates\Alea.h(11, 4)
+
+Renommer 'GetAlea' en 'Get' :
+-----------------------------
+c:\Users\Administrateur\source\repos\Formation\templates\Alea.cpp(17, 12)
+c:\Users\Administrateur\source\repos\Formation\templates\Alea.h(8, 4)
+
+Renommer 'm_object' en 'm_objects' :
+------------------------------------
+c:\Users\Administrateur\source\repos\Formation\templates\Alea.h(17, 3)
+c:\Users\Administrateur\source\repos\Formation\templates\Alea.h(22, 10)
+c:\Users\Administrateur\source\repos\Formation\templates\Alea.h(29, 12)
+
+Renommer 'node' en 'pays' :
+---------------------------
+c:\Users\Administrateur\source\repos\Formation\xml\main.cpp(35, 14)
+c:\Users\Administrateur\source\repos\Formation\xml\main.cpp(36, 33)
+
+Renommer 'nextSibling' en 'sibling' :
+-------------------------------------
+c:\Users\Administrateur\source\repos\Formation\xml\main.cpp(17, 14)
+c:\Users\Administrateur\source\repos\Formation\xml\main.cpp(18, 9)
+c:\Users\Administrateur\source\repos\Formation\xml\main.cpp(20, 3)
+c:\Users\Administrateur\source\repos\Formation\xml\main.cpp(21, 10)
+c:\Users\Administrateur\source\repos\Formation\xml\main.cpp(24, 9)
+
+Renommer 'm_nomRregion' en 'm_nomRegion' :
+------------------------------------------
+c:\Users\Administrateur\source\repos\Formation\xml\Departement.cpp(22, 23)
+c:\Users\Administrateur\source\repos\Formation\xml\Departement.h(19, 9)

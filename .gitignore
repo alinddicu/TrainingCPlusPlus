@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+/TrainingCPlusPlus/classes/Debug
+/TrainingCPlusPlus/.vs/Formation/v15
+/.vs/TrainingCPlusPlus/v15/.suo
+/TrainingCPlusPlus/Debug
+/TrainingCPlusPlus/Formation/Debug
+/.vs
+/TrainingCPlusPlus/max/Debug
+/TrainingCPlusPlus/templates/Debug
+/TrainingCPlusPlus/xml/Debug
