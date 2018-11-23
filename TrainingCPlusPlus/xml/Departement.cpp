@@ -73,15 +73,15 @@ string Departement::ToString()
 	}
 	villes += "]";
 
-	return "Numero: " + m_numero + "\n" +
-		"Nom: " + m_nom + "\n" +
-		"Image carte: " + m_imageCarte + "\n" +
-		"URL: " + m_Url + "\n" +
-		"Surface: " + to_string(m_surface) + "\n" +
-		"Date creation: " + m_sDateCreation + "\n" +
-		"Chef lieu: " + m_chefLieu + "\n" +
-		"Nom region: " + m_nomRegion + "\n" + 
-		"Villes: " + villes + "\n";
+	return "Numero:\t" + m_numero + "\n" +
+		"Nom:\t" + m_nom + "\n" +
+		"Image carte:\t" + m_imageCarte + "\n" +
+		"URL:\t" + m_Url + "\n" +
+		"Surface:\t" + to_string(m_surface) + "\n" +
+		"Date creation:\t" + m_sDateCreation + "\n" +
+		"Chef lieu:\t" + m_chefLieu + "\n" +
+		"Nom region:\t" + m_nomRegion + "\n" + 
+		"Villes:\t" + villes + "\n";
 }
 
 ostream& operator<<(ostream& stream, const Departement& d)
